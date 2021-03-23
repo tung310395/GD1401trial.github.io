@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Food preference</title>
+  	  <meta charset="utf-8">
+  	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!--Fix menu-->
+  <style>
+  body {margin:0;}
+
+  .navbar {
+    overflow: hidden;
+    background-color: #fba560;
+    position: static; <!-- chon fixed or static-->
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  </style>
+
+</head>
+ 
+<body>
+
+  <!--Navbbar-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\FCamp.html">FCamp</a>
+      </div>
+      <ul class="nav navbar-nav">      
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Invitation.html">Invitation</a></li>
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Event Shedule.html">Event schedule</a></li>
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Life at Fu.html">Life at FU</a></li>
+        <li><a style="color: white"; href="#">Food preference</a></li>      
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Sign Up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
+
+<section>
+    <!--Food preference-->
+    <!--image side by side-->
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 30%;
+      padding: 10px;
+      margin: 15px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;      
+
+    }
+    </style> 
+
+    <!--Food-->
+   
+      <h2 style="text-align: center;">Food preference</h2> <!--text-align center,left,right-->
+
+      <div class="container">
+        <div class="row">
+          <style>
+            .button5 {border-radius: 10px;}
+            .button {
+              color: white;
+              text-align: center;
+              width: 100px
+            }
+          </style>
+          <div class="column">
+            <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\food preference\7.jpg" style="width:350px">
+            <h3 style="text-align: center;"><b>Vietnamese noodle</b></h3>
+              <div row>
+                <div style="margin-top: -20px" class="column">
+                  <h4 style="text-align: left;">Select:</h4>
+                </div>
+                <div style="margin-top: -14px"; class="column">
+                  </h4><button style="background-color: orange" class="button button5">35.000VND</button>
+                </div> 
+              </div>
+          </div>
+          <div class="column">
+            <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\food preference\6.jpg" style="width:350px">
+            <h3 style="text-align: center;"><b>Rice with egg</b></h3>
+            <div row>
+                <div style="margin-top: -20px" class="column">
+                  <h4 style="text-align: left;">Select:</h4>
+                </div>
+                <div style="margin-top: -14px"; class="column">
+                  </h4><button style="background-color: orange" class="button button5">25.000VND</style> </button>
+                </div> 
+              </div>
+          </div>
+          <div class="column">
+            <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\food preference\3.jpg" style="width:350px">
+            <h3 style="text-align: center;"><b>Rice</b></h3>
+            <div row>
+                <div style="margin-top: -20px" class="column">
+                  <h4 style="text-align: left;">Select:</h4>
+                </div>
+                <div style="margin-top: -14px"; class="column">
+                  </h4><button style="background-color: orange" class="button button5">30.000VND</button>
+                </div> 
+              </div>
+          </div>
+
+
+          <div class="column">
+            <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\food preference\8.jpg" style="width:350px">
+            <h3 style="text-align: center;"><b>Dumplings</b></h3>
+              <div row>
+                <div style="margin-top: -20px" class="column">
+                  <h4 style="text-align: left;">Select:</h4>
+                </div>
+                <div style="margin-top: -14px"; class="column">
+                  </h4><button style="background-color: orange" class="button button5">35.000VND</button>
+                </div> 
+              </div>
+          </div>
+          <div class="column">
+            <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\food preference\9.jpg" style="width:350px">
+            <h3 style="text-align: center;"><b>Sticky rice</b></h3>
+            <div row>
+                <div style="margin-top: -20px" class="column">
+                  <h4 style="text-align: left;">Select:</h4>
+                </div>
+                <div style="margin-top: -14px"; class="column">
+                  </h4><button style="background-color: orange" class="button button5">20.000VND</style> </button>
+                </div> 
+              </div>
+          </div>
+          <div class="column">
+            <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\food preference\10.jpg" style="width:350px">
+            <h3 style="text-align: center;"><b>Bun Cha</b></h3>
+            <div row>
+                <div style="margin-top: -20px" class="column">
+                  <h4 style="text-align: left;">Select:</h4>
+                </div>
+                <div style="margin-top: -14px"; class="column">
+                  </h4><button style="background-color: orange" class="button button5">30.000VND</button>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </div>   
+
+</section>
+
+
+</html>

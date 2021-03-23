@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Invitation</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!--Fix menu-->
+  <style>
+  body {margin:0;}
+
+  .navbar {
+    overflow: hidden;
+    background-color: #fba560;
+    position: static; /*chon fixed or static*/
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  </style>
+
+</head>
+ 
+<body>
+
+  <!--Navbbar-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\FCamp.html">FCamp</a>
+      </div>
+      <ul class="nav navbar-nav">      
+        <li><a style="color: white"; href="#">Invitation</a></li>
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Event Shedule.html">Event schedule</a></li>
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Life at Fu.html">Life at FU</a></li>
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Food preference.html">Food preference</a></li>      
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Sign Up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
+
+
+<!--Meet The Team;Card--> 
+<style>
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #Fba560;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .button:hover {
+    background-color: #Fba560;
+  }
+</style>
+
+<!--Invitation-->
+<h1 style="text-align: center;">Invitation</h1>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\Invitation\The Dialogue Nguyen Hong.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>The Dialogue</h2>
+        <p class="title">CEO & Founder</p>
+        <p>The Dialogue "Secrets of Viral Videos" promises to bring interesting and useful content to FPT students in general and for communication and marketing students in particular. This number of times, The Dialogue's guest is Mr. Nguyen Nguyen Hong - CEO of Vietstarmax Production House - The company has 12 years of experience in advertising films and Viral Videos, corporate films.</p>        
+        
+        <br>                   
+        <!--  Style Text Buttons;Wanna join?-->
+        <style>
+          .btn {
+            border: none;
+            background-color: inherit; /*inherit or...*/
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+          }
+
+          .btn:hover {background: #eee;
+
+          .default {color: black;}                
+        </style>
+
+        <!--Wanna join?-->      
+        <div>
+          <h4><b>Wanna Join?</b></h4>
+          <!--Button disabled Property https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp-->
+          <button style="padding: 5px 10px"; id="myBtn">Yes</button>
+          <button style="padding: 5px 10px"; onclick="myFunction()">No</button>
+
+          <script>
+          function myFunction() {
+            document.getElementById("myBtn").disabled = true;
+          }
+          </script>                                
+        </div>              
+      </div>
+    </div>
+  </div>
+
+<br>
+
+  <div class="row">
+    <div class="card">
+      <img src="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\Invitation\CLoud.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Cloud learning</h2>
+        <p class="title">CEO & Founder</p>
+        <p>𝐼 𝑎𝑚 𝐻𝑢𝑜𝑛𝑔 𝑤𝑜𝑟𝑘𝑖𝑛𝑔 𝑖𝑛 𝑇𝑒𝑐ℎ𝑛𝑜𝑙𝑜𝑔𝑦 𝑠𝑢𝑝𝑝𝑜𝑟𝑡 𝑎𝑛𝑑 𝑙𝑒𝑎𝑟𝑛𝑖𝑛𝑔 𝑚𝑢𝑙𝑡𝑖 𝑐𝑙𝑜𝑢𝑑 𝑎𝑛𝑑 𝑤𝑜𝑢𝑙𝑑 𝑙𝑖𝑘𝑒 𝑡𝑜 𝑖𝑛𝑣𝑖𝑡𝑒 𝑦𝑜𝑢 𝑡𝑜 𝑡ℎ𝑒 𝑠ℎ𝑎𝑟𝑖𝑛𝑔 𝑠𝑒𝑠𝑠𝑖𝑜𝑛 𝑛𝑒𝑥𝑡 𝑆𝑢𝑛𝑑𝑎𝑦 𝑎𝑡 3𝑃𝑀 𝑉𝑖𝑒𝑡𝑛𝑎𝑚 𝑡𝑖𝑚𝑒 𝑜𝑛 𝐶𝑙𝑜𝑢𝑑 𝑐𝑎𝑟𝑒𝑒𝑟 𝑎𝑛𝑑 ℎ𝑜𝑤 𝑡𝑜 𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑙𝑒𝑎𝑟𝑛𝑖𝑛𝑔 𝑗𝑜𝑢𝑟𝑛𝑒𝑦. 𝑇ℎ𝑒𝑟𝑒 𝑤𝑖𝑙𝑙 𝑏𝑒 𝑎 𝑑𝑒𝑚𝑜 𝑜𝑛 𝑡ℎ𝑒 𝑃𝑢𝑏𝑙𝑖𝑐 𝐶𝑙𝑜𝑢𝑑 𝑝𝑙𝑎𝑡𝑓𝑜𝑟𝑚 𝑎𝑛𝑑 𝑠ℎ𝑎𝑟𝑖𝑛𝑔 𝑜𝑛 𝑡ℎ𝑒 𝐶𝑙𝑜𝑢𝑑 𝑑𝑜𝑚𝑎𝑖𝑛 𝑐𝑎𝑟𝑒𝑒𝑟 𝑓𝑟𝑜𝑚 𝑎 𝑀𝑢𝑙𝑡𝑖 𝐶𝑙𝑜𝑢𝑑 𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡 𝑝𝑟𝑜𝑓𝑒𝑠𝑠𝑖𝑜𝑛𝑎𝑙. 𝑃𝑙𝑒𝑎𝑠𝑒 ℎ𝑒𝑙𝑝 𝑡𝑜 𝑓𝑖𝑙𝑙 𝑖𝑛 𝑡ℎ𝑒 𝑓𝑜𝑟𝑚 𝑤𝑖𝑡ℎ 𝑦𝑜𝑢𝑟 𝑒𝑚𝑎𝑖𝑙 𝑎𝑛𝑑 𝑡ℎ𝑒 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 𝑦𝑜𝑢 𝑤𝑎𝑛𝑡 𝑡𝑜 𝑎𝑠𝑘 𝑡ℎ𝑒 𝑠𝑝𝑒𝑎𝑘𝑒𝑟 𝑤ℎ𝑖𝑐ℎ 𝑤𝑖𝑙𝑙 ℎ𝑒𝑙𝑝 𝑢𝑠 𝑡𝑜 𝑝𝑟𝑒𝑝𝑎𝑟𝑒 𝑡ℎ𝑒 𝑠𝑒𝑠𝑠𝑖𝑜𝑛 𝑎𝑛𝑑 𝑎𝑟𝑟𝑎𝑛𝑔𝑒 𝑡ℎ𝑒 𝑧𝑜𝑜𝑚 𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑦.</p>        
+        
+        <br>                   
+        <!--  Style Text Buttons;Wanna join?-->
+        <style>
+                          
+        </style>
+
+        <!--Wanna join?-->      
+        <div>
+          <h4><b>Wanna Join?</b></h4>
+          <!--Button disabled Property; https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp-->
+          <button style="padding: 5px 10px"; id="myBtn"><a style="color: black" href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Register.html">Yes</a></button>
+          <button style="padding: 5px 10px"; onclick="myFunction()">No</button>
+
+          <script>
+          function myFunction() {
+            document.getElementById("myBtn").disabled = true;
+          }
+          </script>                                
+        </div>              
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</html>
