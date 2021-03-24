@@ -157,9 +157,15 @@
         <!--Wanna join?-->      
         <div style="text-align: center;">
           <h4><b>Wanna Join?</b></h4>
-          <button onclick="document.getElementById('ButtonTwo').disabled = true;" type="submit" name="ButtonOne" id="ButtonOne">Yes</button>            
+          <!--Button disabled Property; https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp-->
+          <button style="padding: 5px 10px"; id="myBtn"><a style="color: black" href="D:\truong dai hoc fpt\spring 2021\Web Design 2\Học tập\ass 2\html\Register.html">Yes</a></button>
+          <button style="padding: 5px 10px"; onclick="myFunction()">No</button>
 
-          <button onclick="document.getElementById('ButtonOne').disabled = true;" type="submit" name="ButtonTwo" id="ButtonTwo">No</button>                                
+          <script>
+          function myFunction() {
+            document.getElementById("myBtn").disabled = true;
+          }
+          </script>                                
         </div>              
       </div>
     </div>
